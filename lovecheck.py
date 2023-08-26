@@ -31,9 +31,9 @@ wallet_addresses = []
 with open("wallets.txt", "r") as file:
     wallet_addresses = [line.strip() for line in file]
 
-contract_address = ""  # Insert contract address of NFT collection or Token you want to check ownership
+contract_address = "0xFF04820c36759C9F5203021fe051239aD2dcca8a"  # Insert contract address of NFT collection or Token you want to check ownership
 
-scan = "eth"  # "poly" "eth" "bsc" Choose the scan
+scan = "poly"  # "poly" "eth" "bsc" Choose the scan
 
 results = []
 
